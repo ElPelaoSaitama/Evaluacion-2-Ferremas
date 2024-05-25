@@ -42,3 +42,11 @@
     ```
 
 Esto configurará y poblará tu base de datos con los datos iniciales.
+
+## Levantar el Servidor
+
+Para levantar el servidor, usa el siguiente comando:
+
+```sh
+py manage.py runserver
+```
