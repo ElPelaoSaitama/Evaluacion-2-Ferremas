@@ -12,6 +12,10 @@ class CategoriaSerializers(serializers.ModelSerializer):
         fields = '__all__'
 
 class ProductoSerializers(serializers.ModelSerializer):
+    marca = MarcaSerializers(read_only=True)
+    marca_id = serializers.PrimaryKeyRelatedField(queryset=Marca.objects.all(), source="marca")
+
+    
     class Meta:
         model = Producto
         fields = '__all__'
