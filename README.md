@@ -35,3 +35,7 @@ Para iniciar el servidor, usa:
 ```sh
 py manage.py runserver
 ```
+
+Documentacion API:
+
+https://documenter.getpostman.com/view/30225104/2sA3Qqgsjn#1248cb74-051c-4760-8364-7edaf4859171
